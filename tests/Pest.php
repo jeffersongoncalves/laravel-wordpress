@@ -1,3 +1,5 @@
 <?php
 
-uses(Jeffersongoncalves\Wordpress\Tests\TestCase::class)->in('Feature', 'Unit');
+use Jeffersongoncalves\Wordpress\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature', 'Unit');
